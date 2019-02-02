@@ -16,12 +16,6 @@ import numpy as np
 import tensorflow as tf
 import collections
 import matplotlib.pyplot as plt
-#graphic properties
-plt.rcParams['image.cmap'] = 'RdYlGn'
-plt.rcParams['figure.figsize'] = [15.0, 6.0]
-plt.rcParams['figure.dpi'] = 80
-plt.rcParams['savefig.dpi'] = 30
-
 
 env = gym.make('CartPole-v1')
 env._max_episode_steps = 10000
